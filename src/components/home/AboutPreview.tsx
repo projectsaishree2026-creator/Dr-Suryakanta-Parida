@@ -70,7 +70,7 @@ export default function AboutPreview() {
             </motion.div>
 
             <motion.div variants={fadeUp}>
-              <Link href="/about" className="btn-primary">
+              <Link href="/about" aria-label="Read full story about Dr. Suryakanta Parida" className="btn-primary">
                 Read Full Story
                 <ArrowRight size={16} strokeWidth={2} />
               </Link>

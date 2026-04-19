@@ -69,7 +69,7 @@ export default function ServicesPage() {
             super-specialist at SCB Medical College, Cuttack. Serving patients from Bhubaneswar and across Odisha.
           </p>
           <div className="flex flex-wrap gap-3">
-            <Link href="/contact" className="btn-primary">
+            <Link href="/contact" aria-label="Book a gastroenterology appointment with Dr. Parida" className="btn-primary">
               <CalendarDays size={16} strokeWidth={2} />
               Book Appointment
             </Link>
@@ -150,7 +150,7 @@ export default function ServicesPage() {
               </p>
             </div>
             <div className="flex flex-wrap gap-3">
-              <Link href="/contact" className="btn-primary">
+              <Link href="/contact" aria-label="Book a gastroenterology appointment with Dr. Parida" className="btn-primary">
                 <CalendarDays size={16} strokeWidth={2} />
                 Book Appointment
               </Link>

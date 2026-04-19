@@ -61,7 +61,7 @@ export default function AboutPage() {
               ))}
 
               <div className="flex flex-wrap gap-3 mt-8">
-                <Link href="/contact" className="btn-primary">
+                <Link href="/contact" aria-label="Book a gastroenterology consultation with Dr. Parida" className="btn-primary">
                   <CalendarDays size={16} />
                   Book Consultation
                 </Link>

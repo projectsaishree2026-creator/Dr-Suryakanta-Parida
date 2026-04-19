@@ -44,6 +44,7 @@ export default function BlogsPage() {
           <p className="section-label mb-6">Featured Article</p>
           <Link
             href={`/blogs/${featured.slug}`}
+            aria-label={`Read featured article: ${featured.title}`}
             className="group grid grid-cols-1 lg:grid-cols-2 gap-0 bg-white rounded-3xl
                        border border-[#E5E7EB] shadow-card overflow-hidden
                        hover:shadow-card-hover hover:-translate-y-1 transition-all duration-300"

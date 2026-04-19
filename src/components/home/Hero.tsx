@@ -172,6 +172,7 @@ export default function Hero() {
             <motion.div variants={slideUp} className="flex flex-wrap gap-3 mb-12">
               <Link
                 href="/contact"
+                aria-label="Book a gastroenterology appointment with Dr. Parida"
                 className="inline-flex items-center gap-2 px-6 py-3.5
                            bg-primary-700 text-white rounded-full font-semibold text-[0.9rem]
                            transition-all duration-200
@@ -195,6 +196,7 @@ export default function Hero() {
               </a>
               <Link
                 href="/about"
+                aria-label="Learn more about Dr. Suryakanta Parida gastroenterologist in Cuttack"
                 className="inline-flex items-center gap-2 px-5 py-3.5
                            bg-transparent text-charcoal-muted rounded-full font-medium text-[0.9rem]
                            transition-all duration-200 hover:text-charcoal group"
@@ -300,6 +302,7 @@ export default function Hero() {
 
                     <Link
                       href="/contact"
+                      aria-label="Book a gastroenterology consultation with Dr. Parida"
                       className="flex items-center justify-center gap-2 w-full py-3.5 rounded-2xl
                                  bg-primary-500 text-white font-semibold text-[0.9rem]
                                  transition-all duration-200 hover:bg-primary-400 hover:shadow-[0_8px_16px_-4px_rgba(3,105,161,0.5)] active:scale-[0.99] border border-primary-400/50 shadow-md"

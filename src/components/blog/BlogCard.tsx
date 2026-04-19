@@ -19,6 +19,7 @@ export default function BlogCard({
     return (
       <Link
         href={`/blogs/${post.slug}`}
+        aria-label={`Read article: ${post.title}`}
         className={cn(
           'group grid grid-cols-1 lg:grid-cols-2 gap-0 bg-white rounded-3xl',
           'border border-[#E5E7EB] shadow-card overflow-hidden',
@@ -67,6 +68,7 @@ export default function BlogCard({
   return (
     <Link
       href={`/blogs/${post.slug}`}
+      aria-label={`Read article: ${post.title}`}
       className={cn(
         'group bg-white rounded-3xl border border-[#E5E7EB] shadow-soft overflow-hidden',
         'hover:shadow-card hover:-translate-y-1 hover:border-primary-200 transition-all duration-300',

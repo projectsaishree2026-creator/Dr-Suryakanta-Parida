@@ -49,6 +49,7 @@ export default function ServicesHighlight() {
           </div>
           <Link
             href="/services"
+            aria-label="View all gastroenterology services by Dr. Parida"
             className="hidden lg:inline-flex items-center gap-2 text-primary-700 font-semibold text-sm
                        hover:text-primary-500 transition-colors group self-end mb-1"
           >
@@ -153,7 +154,7 @@ export default function ServicesHighlight() {
           transition={{ delay: 0.5 }}
           className="mt-8 lg:hidden"
         >
-          <Link href="/services" className="btn-primary">
+          <Link href="/services" aria-label="View all gastroenterology services by Dr. Parida" className="btn-primary">
             View All Services
             <ArrowRight size={15} />
           </Link>
