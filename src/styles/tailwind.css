@@ -1,0 +1,36 @@
+/* Additional Tailwind utility extensions */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .bg-beige {
+    background-color: #F8F5F2;
+  }
+
+  .text-charcoal {
+    color: #1F2937;
+  }
+
+  .text-charcoal-light {
+    color: #374151;
+  }
+}
