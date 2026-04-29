@@ -63,6 +63,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`scroll-smooth ${outfit.variable} ${dmSans.variable}`}>
       <head>
+      <meta name="google-site-verification" content="_1zDaI3ga2dmKgKrzS2L2nbG-7UAaMDMcCOc1vBCDEw" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaOrg.physician) }}
