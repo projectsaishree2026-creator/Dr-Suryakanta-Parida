@@ -103,10 +103,10 @@ export const schemaOrg = {
       name: 'Sai Shree Polyclinic',
       address: {
         '@type': 'PostalAddress',
-        streetAddress: 'Kathagola, Ring Rd, near Shree Maa',
+        streetAddress: 'Kathagola, Ring Rd, near Shree Maa Hospital',
         addressLocality: 'Cuttack',
         addressRegion: 'Odisha',
-        postalCode: '753110',
+        postalCode: '753001',
         addressCountry: 'IN',
       },
       telephone: siteConfig.phoneRaw,
@@ -126,10 +126,10 @@ export const schemaOrg = {
     priceRange: '$$',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'Kathagola, Ring Rd, near Shree Maa',
+      streetAddress: 'Kathagola, Ring Rd, near Shree Maa Hospital',
       addressLocality: 'Cuttack',
       addressRegion: 'Odisha',
-      postalCode: '753110',
+      postalCode: '753001',
       addressCountry: 'IN',
     },
     geo: {
