@@ -103,7 +103,7 @@ export const schemaOrg = {
       name: 'Sai Shree Polyclinic',
       address: {
         '@type': 'PostalAddress',
-        streetAddress: 'Kathagola, Ring Rd, near Shree Maa Hospital',
+        streetAddress: 'Kathagola Rd, near shreema Hospital, Mangalabag',
         addressLocality: 'Cuttack',
         addressRegion: 'Odisha',
         postalCode: '753001',
@@ -126,7 +126,7 @@ export const schemaOrg = {
     priceRange: '$$',
     address: {
       '@type': 'PostalAddress',
-      streetAddress: 'Kathagola, Ring Rd, near Shree Maa Hospital',
+      streetAddress: 'Kathagola Rd, near shreema Hospital, Mangalabag',
       addressLocality: 'Cuttack',
       addressRegion: 'Odisha',
       postalCode: '753001',

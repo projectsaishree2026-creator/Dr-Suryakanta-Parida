@@ -25,7 +25,7 @@ const contactDetails = [
   },
   { icon: Building2, label: 'Clinic', value: CLINIC, href: undefined, highlight: false },
   { icon: GraduationCap, label: 'Hospital', value: HOSPITAL, href: undefined, highlight: false },
-  { icon: MapPin, label: 'Location', value: LOCATION, href: undefined, highlight: false },
+  { icon: MapPin, label: 'Location', value: 'Kathagola Rd, near shreema Hospital, Mangalabag, Cuttack, Odisha 753001, Sai Shree Poly Clinic', href: undefined, highlight: false },
   {
     icon: Clock,
     label: 'Availability',
